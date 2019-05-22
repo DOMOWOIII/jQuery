@@ -11,27 +11,27 @@
 			<h1>Прикупи себе что-нибудь со скидочкой</h1>
 			<ul class="shop">
 				<li class="shop__list">
-					<div class="shop__list_item">
+					<div class="shop__list_item1">
 						<img src="img/1.jpg" alt="Images" width="250">
-						<p class="shop__list_text">Размер вашей скидки:</p>
+						<p class="shop__list_text1"></p>
 					</div>
 				</li>
 				<li class="shop__list">
-					<div class="shop__list_item">
+					<div class="shop__list_item2">
 						<img src="img/2.jpg" alt="Images" width="250">
-						<p class="shop__list_text">Размер вашей скидки:</p>
+						<p class="shop__list_text2"></p>
 					</div>
 				</li>
 				<li class="shop__list">
-					<div class="shop__list_item">
+					<div class="shop__list_item3">
 						<img src="img/3.jpg" alt="Images" width="250">
-						<p class="shop__list_text">Размер вашей скидки:</p>
+						<p class="shop__list_text3"></p>
 					</div>
 				</li>
 				<li class="shop__list">
-					<div class="shop__list_item">
+					<div class="shop__list_item4">
 						<img src="img/4.jpg" alt="Images" width="250">
-						<p class="shop__list_text">Размер вашей скидки:</p>
+						<p class="shop__list_text4"></p>
 					</div>
 				</li>
 			</ul>
@@ -39,12 +39,27 @@
 		<script src="js/jquery-3.4.1.min.js"></script>
 		<script>
 			$(document) .ready(function() {
-				$(".shop__list_item") .click(function() {
-				alert("Ты как?");
+				$(".shop__list_item1") .click(function() {
+				var discount = Math.floor((Math.random()*5) + 5);
+				var discount_msg = "<p> Размер твоей скидки: "+ discount +"%</p>";
+					$(".shop__list_text1").append(discount_msg);
+				}); //end click function
+				$(".shop__list_item2") .click(function() {
+				var discount = Math.floor((Math.random()*5) + 5);
+				var discount_msg = "<p> Размер твоей скидки: "+ discount +"%</p>";
+					$(".shop__list_text2").append(discount_msg);
+				}); //end click function
+				$(".shop__list_item3") .click(function() {
+				var discount = Math.floor((Math.random()*5) + 5);
+				var discount_msg = "<p> Размер твоей скидки: "+ discount +"%</p>";
+					$(".shop__list_text3").append(discount_msg);
+				}); //end click function
+				$(".shop__list_item4") .click(function() {
+				var discount = Math.floor((Math.random()*5) + 5);
+				var discount_msg = "<p> Размер твоей скидки: "+ discount +"%</p>";
+					$(".shop__list_text4").append(discount_msg);
 				}); //end click function
 			}); //end read document
-			
-
 		</script>
 	</body>
 </html>
