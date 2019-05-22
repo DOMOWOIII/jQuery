@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:link img, a:visited img {
+	display:none;
+}
+
+a:hover img, a:active img {
+display:block;
+}
+
+.show {
+	margin: 50px 50px 50px 50px;
+
+}
+
+.click {
+	margin: 50px 50px auto;
+
+}

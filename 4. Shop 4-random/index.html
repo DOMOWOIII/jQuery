@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Shop-4</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header class="header" id="header">
+			<h1>Прикупи себе что-нибудь со скидочкой</h1>
+			<ul class="shop">
+				<li class="shop__list">
+					<div class="shop__list_item">
+						<img src="img/1.jpg" alt="Images" width="250">
+						<p class="shop__list_text">Размер вашей скидки:</p>
+					</div>
+				</li>
+				<li class="shop__list">
+					<div class="shop__list_item">
+						<img src="img/2.jpg" alt="Images" width="250">
+						<p class="shop__list_text">Размер вашей скидки:</p>
+					</div>
+				</li>
+				<li class="shop__list">
+					<div class="shop__list_item">
+						<img src="img/3.jpg" alt="Images" width="250">
+						<p class="shop__list_text">Размер вашей скидки:</p>
+					</div>
+				</li>
+				<li class="shop__list">
+					<div class="shop__list_item">
+						<img src="img/4.jpg" alt="Images" width="250">
+						<p class="shop__list_text">Размер вашей скидки:</p>
+					</div>
+				</li>
+			</ul>
+		</header>
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script>
+			$(document) .ready(function() {
+				$(".shop__list_item") .click(function() {
+				alert("Ты как?");
+				}); //end click function
+			}); //end read document
+			
+
+		</script>
+	</body>
+</html>

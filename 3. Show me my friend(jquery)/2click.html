@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Show me my friend</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="click_me" id="click_me">
+			Show me my friend
+		</div>
+		<div class="pickframe" id="pickframe">
+				<img src="item_2850.jpg" alt="Picture" >
+		</div>
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script>
+			$(document) .ready(function () {
+				$("#click_me") .click (function () {
+					$("img") .fadeIn(2000);
+					$("#pickframe"). slideToggle("slow");
+				})
+			})
+		</script>
+	</body>
+</html>

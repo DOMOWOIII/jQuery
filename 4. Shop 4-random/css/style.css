@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #A6F0D3;
+}
+
+header {
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+.shop {
+	display: flex;
+	justify-content: center;
+}
+
+.shop__list {
+	list-style: none;
+	padding-right: 50px;
+}
+
+.shop__list_item {
+	border: 1px solid #000;
+	background: #fff;
+}
+
+.shop__list_text {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-left: 10px;
+
+}

@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.click_me {
+	display: block;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #565D45; 
+
+	width: 200px;
+	padding: 30px 20px 30px 20px;
+	background: #64BCE8;
+	text-align: center;
+	margin: 100px auto;
+
+}
+
+.pickframe {
+	text-align: center;
+	display: none;
+}
+
+.pickframe {
+	height: 400px;
+}
