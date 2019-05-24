@@ -10,28 +10,36 @@
 		<header class="header" id="header">
 			<h1>Прикупи себе что-нибудь со скидочкой</h1>
 			<ul class="shop">
-				<li class="shop__list">
+				<li class="shop__list1">
 					<div class="shop__list_item1">
 						<img src="img/1.jpg" alt="Images" width="250">
-						<p class="shop__list_text1"></p>
+						<div class="dop1">
+							<p class="w1"></p>
+						</div>
 					</div>
 				</li>
-				<li class="shop__list">
+				<li class="shop__list2">
 					<div class="shop__list_item2">
 						<img src="img/2.jpg" alt="Images" width="250">
-						<p class="shop__list_text2"></p>
+						<div class="dop2">
+							<p class="w2"></p>
+						</div>
 					</div>
 				</li>
-				<li class="shop__list">
+				<li class="shop__list3">
 					<div class="shop__list_item3">
 						<img src="img/3.jpg" alt="Images" width="250">
-						<p class="shop__list_text3"></p>
+						<div class="dop3">
+							<p class="w3"></p>
+						</div>
 					</div>
 				</li>
-				<li class="shop__list">
+				<li class="shop__list4">
 					<div class="shop__list_item4">
 						<img src="img/4.jpg" alt="Images" width="250">
-						<p class="shop__list_text4"></p>
+						<div class="dop4">
+							<p class="w4"></p>
+						</div>
 					</div>
 				</li>
 			</ul>
@@ -40,24 +48,32 @@
 		<script>
 			$(document).ready(function() {
 				$(".shop__list_item1").click(function() {
-					var discount = Math.floor((Math.random()*5) + 5);
-					var discount_msg = "Размер твоей скидки: "+ discount +"%";
-					$(".shop__list_text1").append(discount_msg);
+					$(".w1").remove();
+					var discount1 = Math.floor((Math.random()*5) + 5);
+					var discount_msg1 = "Размер твоей скидки: "+ discount1 +"%";
+					alert(discount_msg1);
+					$(".w1").append(discount_msg1);
 				}); //end click function
 				$(".shop__list_item2").click(function() {
-					var discount = Math.floor((Math.random()*5) + 5);
-					var discount_msg = "Размер твоей скидки: "+ discount +"%";
-					$(".shop__list_text2").append(discount_msg);
+					$(".w2").remove();
+					var discount2 = Math.floor((Math.random()*5) + 5);
+					var discount_msg2 = "Размер твоей скидки: "+ discount2 +"%";
+					alert(discount_msg2);
+					$(".w2").append(discount_msg2);
 				}); //end click function
 				$(".shop__list_item3").click(function() {
-					var discount = Math.floor((Math.random()*5) + 5);
-					var discount_msg = "Размер твоей скидки: "+ discount +"%";
-					$(".shop__list_text3").append(discount_msg);
+					$(".w3").remove();
+					var discount3 = Math.floor((Math.random()*5) + 5);
+					var discount_msg3 = "Размер твоей скидки: "+ discount3 +"%";
+					alert(discount_msg3);
+					$(".w3").append(discount_msg3);
 				}); //end click function
 				$(".shop__list_item4").click(function() {
-					var discount = Math.floor((Math.random()*5) + 5);
-					var discount_msg = "Размер твоей скидки: "+ discount +"%";
-					$(".shop__list_text4").append(discount_msg);
+					$(".w4").remove();
+					var discount4 = Math.floor((Math.random()*5) + 5);
+					var discount_msg4 = "Размер твоей скидки: "+ discount4 +"%";
+					alert(discount_msg4);
+					$(".w4").append(discount_msg4);
 				}); //end click function
 			}); //end read document
 		</script>
