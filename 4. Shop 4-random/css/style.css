@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #A6F0D3;
+}
+
+header {
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+.shop {
+	display: flex;
+	justify-content: center;
+}
+
+.shop__list {
+	list-style: none;
+	padding-right: 50px;
+}
+
+.shop__list_item1 {
+	border: 1px solid #000;
+	background: #fff;
+	cursor: pointer;
+}
+.shop__list_item2 {
+	border: 1px solid #000;
+	background: #fff;
+	cursor: pointer;
+}
+.shop__list_item3 {
+	border: 1px solid #000;
+	background: #fff;
+	cursor: pointer;
+}
+.shop__list_item4 {
+	border: 1px solid #000;
+	background: #fff;
+}
+
+.shop__list_text1 .discount_msg {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.shop__list_text2 .discount_msg {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.shop__list_text3 .discount_msg {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.shop__list_text4 .discount_msg {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
